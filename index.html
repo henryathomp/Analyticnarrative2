@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mermaid Diagram</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</head>
+<body>
+    <div class="mermaid">
+        graph LR
+            A[Analytic Narrative Paper Structure]
+            A --> B[1. Introduction]
+            B --> BA[Historical context]
+            B --> BB[Central puzzle or question]
+            B --> BC[Thesis statement]
+            B --> BD[Theoretical framework]
+            B --> BE[Overview of paper structure]
+            A --> C[2. Background and Context]
+            C --> CA[Detailed historical setting]
+            C --> CB[Key actors and institutions]
+            C --> CC[Relevant economic or political theories]
+            A --> D[3. The Core Problem or Dilemma]
+            D --> DA[Detailed explanation of the central issue]
+            D --> DB[Theoretical implications]
+            D --> DC[Challenges to existing explanations]
+            A --> E[4. Institutional or Organizational Response]
+            E --> EA[Description of observed solution]
+            E --> EB[Analysis of incentives and constraints]
+            E --> EC[Evolution of the solution over time]
+            A --> F[5. Comparative Analysis]
+            F --> FA[Similar cases or counterfactuals]
+            F --> FB[Alternative explanations]
+            F --> FC[Contrasts and similarities]
+            A --> G[6. Evaluation of Effectiveness]
+            G --> GA[Evidence of success or failure]
+            G --> GB[Quantitative or qualitative measures]
+            G --> GC[Limitations and challenges]
+            A --> H[7. Broader Implications]
+            H --> HA[Theoretical insights]
+            H --> HB[Policy implications]
+            H --> HC[Generalizability of findings]
+            A --> I[8. Conclusion]
+            I --> IA[Summary of key findings]
+            I --> IB[Contribution to literature]
+            I --> IC[Future research directions]
+            A --> J[Supporting Elements]
+            J --> JA[References]
+            J --> JB[Appendices: Data, documents, etc.]
+    </div>
+</body>
+</html>
